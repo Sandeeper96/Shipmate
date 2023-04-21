@@ -7,7 +7,7 @@ import {RiHandbagFill} from 'react-icons/ri'
 function Services() {
   return (
     <div className="services">
-      <h6>Services</h6>
+      <h6 className="ser-name">Services</h6>
       <div className="service-detail">
         <div className="freight card">
           <h6><BsTrainFreightFrontFill/> Freight Services</h6>
