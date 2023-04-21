@@ -1,0 +1,58 @@
+*{
+    /* background-image: url(../../images/background.jpeg); */
+   background-color: rgb(148, 222, 222);
+ 
+}
+.logo{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 10px;
+    left: 24px;
+    /* background-image: url(../../images/background.jpg); */
+}
+.black{
+    color: black;
+    font-family: 'PP Cirka';
+}
+
+.blue{
+   color: #6F57E9;
+   font-family: 'PP Cirka';
+}
+
+.btn-login{
+    display: flex;
+    justify-content:end;
+    position: relative;
+    bottom: 19px;
+    /* right: 22px; */
+    width: 20rem;
+
+}
+
+#login{
+    padding-right: 16px;
+    width: 69px;
+    /* margin-right: 10px; */
+    background-color: #6F57E9;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    top: -22px;
+    right: -48rem;
+    color: white;
+
+    
+}
+#learn{
+    /* margin-right: 20px; */
+    color: black;
+    border-color: #6F57E9;
+    position: relative;
+    bottom: 49px;
+    right: -54rem;
+    border-radius: 5px;
+    background-color: white;
+}
+

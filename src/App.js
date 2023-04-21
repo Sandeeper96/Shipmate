@@ -1,24 +1,33 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './component/header/Header';
+import MainHeader from './component/mainheader/MainHeader';
+import Summary from './component/summary/Summary';
+import Services from './component/services/Services';
+import BookingSummary from './component/bookingsummary/BookingSummary';
+import City from './component/summary/City';
+import Progress from './component/progress/Progress';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Header2 from './component/header2/Header2';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+    <Routes>
+    <Route path='/' element={<><Header/><MainHeader/><Summary/><Services/></>}/>
+    <Route path='/second' element={<><Header2/><MainHeader/><Summary/><Services/></>}/>
+  
+      {/* <Header/>
+      <MainHeader/>
+      <Summary/>
+   
+      <Services/>
+      <BookingSummary/>
+      <City/> 
+      <Progress/>*/}
+      </Routes>
+      </BrowserRouter>
+    
   );
 }
 

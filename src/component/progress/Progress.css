@@ -1,0 +1,67 @@
+.progress1 {
+    width: 550px;
+    /* height: 3rem; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.one {
+    background: #D3B0FF;
+    border-radius: 50%;
+    width: 40px;
+    height: 39px;
+    /* text-align: end; */
+    color: white;
+}
+
+.hr-one {
+    border: 1px solid #D3B0FF;
+    width: 86px;
+    position: relative;
+    right: 332px;
+    bottom: 34px;
+}
+
+.two {
+    background: #D3B0FF;
+    border-radius: 50%;
+    width: 40px;
+    height: 39px;
+    /* text-align: end; */
+    color: white;
+}
+
+.hr-two {
+    border: 1px solid #D3B0FF;
+    width: 86px;
+    position: relative;
+    bottom: 51px;
+    right: 219px;
+}
+
+.three {
+    background: #D3B0FF;
+    border-radius: 50%;
+    width: 40px;
+    height: 39px;
+    /* text-align: end; */
+    color: white;
+}
+
+.hr-three {
+    border: 1px solid #D3B0FF;
+    width: 86px;
+    position: relative;
+    right: 96px;
+    bottom: 69px;
+
+}
+
+.four {
+    background: #D3B0FF;
+    border-radius: 50%;
+    width: 40px;
+    height: 39px;
+    /* text-align: end; */
+    color: white;
+}
